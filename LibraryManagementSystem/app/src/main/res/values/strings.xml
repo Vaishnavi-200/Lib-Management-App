@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Library Management System</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="dept">
+        <item>Select Department </item>
+        <item>cse</item>
+        <item>ece</item>
+        <item>mech</item>
+        <item>eee</item>
+        <item>civ</item>
+       </string-array>
+
+    <string-array name="sem">
+        <item>Select sem</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/zzz">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/tv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MANAGEMENT"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv2"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

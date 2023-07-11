@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.librarymanagementsystem" >
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sss"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Flash_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddBook_page"></activity>
+        <activity android:name=".DeleteBook_page"></activity>
+        <activity android:name=".DisplayBook_page"></activity>
+        <activity android:name=".Home_page"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Book_name_list"></activity>
+
+    </application>
+
+</manifest>
